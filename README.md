@@ -22,7 +22,12 @@ The service component of SmartMediaCenter, providing a GWT-RPC-based access serv
 
 ## The typical use case
 
-## Key concept: *Virtual Channels*
+## Key concepts: *Virtual Channels*
+The playback of content by the SmartMediaCenter Player is XXX around the concept of *Virtual Broadcasts* and *Virtual Channels*, with *Audio Resource Configs* and *Video Resource Configs* at their base. Think of the following situation:
+
+You know a lot of beautiful video streams that offer great visual content, such as [panoramic landscape recordings](https://www.youtube.com/channel/UCkRRgjvVUp40wNlE-9DEWbw/videos) or downtown tours of amazing cities, [old](https://www.youtube.com/channel/UCmkULBzDRR-VXwX3ffiYd3w/videos) and [modern](https://www.youtube.com/channel/UCBcVQr-07MH-p9e2kRTdB3A/videos) on Youtube, or even a broadcast on your [local public television channel webstream](https://www.zdf.de/live-tv) that may show a live football match. But typically, you completely dislike the corny background music in it, or the lack of any at all, or the boring German football commentary. You want to replace the audio part with something classier (
+
+#
 
 ## Developer hints
 * Everything completely Maven-ized, even the installation. No need to set up as an OS service.
