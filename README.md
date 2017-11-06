@@ -20,6 +20,8 @@ The player component of SmartMediaCenter. Accessed through RMI by the SMC Servic
 ### SmartMediaCenter Service
 The service component of SmartMediaCenter, providing a GWT-RPC-based access service for mobile web clients to the SMC through Servlets on a Tomcat webserver serving compiled JavaScript web pages as a GUI. The component is meant to be hosted on a permanently accessible host with very low energy consumption, like as Raspberry Pi. Besides providing the mentioned service to a mobile web-client, this component controls the current playback configuration and the state of media playback on the SMC Player component host via RMI. For this purpose, it also wakes up or sets asleep the SMC Player host, as required.
 
+## The typical use case
+
 ## Key concept: *Virtual Channels*
 
 ## Developer hints
