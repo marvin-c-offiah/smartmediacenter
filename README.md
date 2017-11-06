@@ -29,7 +29,7 @@ You know a lot of beautiful video streams that offer great visual content, such 
 
 In any case, you want to replace the useless audio in the video with something much more appropriate to the visual content, in your view, and pretend like it's really part of the video. One way to do this is, of course, manually: Mute the audio in the video resource and dig out and open what you want to hear in separate audio player instances running in parallel. Even more time consuming, you could use some video studio software to create new video files that include the audio you want in it. But all of that can become very unnerving at some point, having to recollect what goes together every time for hundreds of such audio-video playback combinations. And you will not be doing that as often as you would like to.
 
-The alternative is, to have a software manage all that. One that allows you to simply select and play a ready-made setup like this, we'll call it a **Virtual Broadcast**, from a list. Or, you may want several of such Virtual Broadcasts one after the other, let's call that a **Virtual Channel**. 
+The alternative is, to have a software manage all that. One that allows you to simply select and play a ready-made setup like this, we'll call it a **Virtual Broadcast**, from a list. Or, you may want to play several of such Virtual Broadcasts one after the other like in a playlist, let's call that a **Virtual Channel**. 
 
 ## Developer hints
 * Everything completely Maven-ized, even the installation. No need to set up as an OS service.
