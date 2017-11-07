@@ -50,5 +50,5 @@ The service component of SmartMediaCenter, providing a GWT-RPC-based access serv
 SmartMediaCenter is really currently being devloped, still working on a first prototype to be uploaded in time!
 
 * Everything will be completely Maven-ized for development (dependencies, plugins).
-* Installation/setup on the target host will be made as simple as possible by using a JAR-based Maven-call even for that. So package will ship with Maven included.
+* Installation/setup on the target host will be made as simple as possible by using a JAR-based Maven-call even for that. So package will ship with Maven included. Will try to get all separate components on Maven Central, in order to realize an online-installation package.
 * Fully preconfigured Tomcat, including user access control and certificate. Just run the Maven-based setup.jar per component. Also, no OS service (for Tomcat) installed by the setup. Can be done manually, if desired. But just running the main launch JAR will suffice.
