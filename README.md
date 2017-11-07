@@ -50,6 +50,8 @@ The service component of SmartMediaCenter, providing a GWT-RPC-based access serv
 SmartMediaCenter is really currently being devloped, still working on a first prototype to be uploaded in time!
 
 * Everything will be completely Maven-ized for development (dependencies, plugins).
+* Everything will be as cross-platform as possible by using Java wherever possible.
 * Installation/setup on the target host will be made as simple as possible by using a JAR-based Maven-call even for that. So package will ship with Maven included. Will try to get all separate components on Maven Central, in order to realize an online-installation package.
+* Will utilize VLC player for playback of media resources (launching multiple instances). VLC will ship with the package, if possible, installed on target host by Maven through dependency.
 * Fully preconfigured Tomcat, including user access control and certificate for the SMC Service. Certificate to be generated during setup on target host. Just run the Maven-based setup.jar.
 * No OS service (for Tomcat or SMC Player) installed by the setup.jar. Can be done manually, if desired. But just running the main launch JAR after installation will suffice.
