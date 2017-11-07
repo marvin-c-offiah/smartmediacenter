@@ -25,7 +25,7 @@ You have an environment with the following hardware equipment:
 * A Naran [MicroBot Push](https://prota.info/). This miracle worker serves as a robotic finger that can push buttons anywhere you place it. It can be controlled via a Bluetooth Low Energy device. That's why the Player Host should have a BLE device, while the MicroBot Push gets placed right on top of your projectors on-button. The Player Host will switch the projector on or off all by itself, when needed!
 * A mobile device with any OS of your choice. Just needs to have mobile internet and a modern web-browser installed. Of course, it's your router's DNS address you're going to type into the browser. And *very important*: The mobile device must have its *GPS activated permanently*.
 
-## Key concept: *Virtual Channels* and location-based playback
+## Key ideas: *Virtual Channels* and location-based playback
 
 The playback of content by the SmartMediaCenter Player is organized around the concept of *Virtual Channels*, with *Media Resource* configurations at their base. Think of the following situation:
 
