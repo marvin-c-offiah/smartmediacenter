@@ -25,7 +25,7 @@ You have an environment with the following hardware equipment:
 * A Naran [MicroBot Push](https://prota.info/). This miracle worker serves as a robotic finger that can push buttons anywhere you place it. It can be controlled via a Bluetooth Low Energy device. That's why the Player Host should have a BLE device, while the MicroBot Push gets placed right on top of your projectors on-button. The Player Host will switch the projector on or off all by itself, when needed!
 * A mobile device with any OS of your choice. Just needs to have mobile internet and a modern web-browser installed. Of course, it's your router's DNS address you're going to type into the browser. And *very important*: The mobile device must have its *GPS activated permanently*.
 
-## Key concept: *Virtual Channels*
+## Key concept: *Virtual Channels* and location-based playback
 
 The playback of content by the SmartMediaCenter Player is organized around the concept of *Virtual Channels*, with *Media Resource* configurations at their base. Think of the following situation:
 
@@ -33,9 +33,9 @@ You know a lot of beautiful video streams that offer great visual content, such 
 
 In any case, you want to replace the useless audio in the video with something much more appropriate to the visual content, in your view, and pretend like it's really part of the video. One way to do this is, of course, manually: Mute the audio in the video resource and dig out and open what you want to hear in separate audio player instances running in parallel. Even more time consuming, you could use some video studio software to create new video files that include the audio you want in it. But all of that can become very irritating at some point, having to recollect, fine-tune and start what goes together every time for hundreds of such audio-video playback combinations. Switching the combination spontaneously several times a day? Even more irritating. And you will not be doing that as frequently and spontaneously as you would like to.
 
-The alternative is, to have a software manage all that. One that allows you to simply select and play a ready-made setup like this, we'll call it a **Virtual Channel**, from a list. So the heart of the configuration for the SmartMediaCenter Service, is simply in editing the lists of Media Resources (audio and video) and their combinations, playback volumes and playback devices (speaker or headphone, screen or projector) in such Virtual Channel configurations.
+The alternative is, to have a software manage all that. One that allows you to simply select and play a ready-made setup like this, we'll call it a **Virtual Channel**, from a list. So the heart of the configuration of that software, is simply in editing the lists of so-called **Media Resources** (audio and video) and their combinations, playback volumes and playback devices (speaker or headphone, screen or projector) in such Virtual Channel configurations. Those can then launched and switched over and over again through a graphical user interface on a smartphone, just like zapping through the channel list on television.  Even better, if your current geographic location according to your phone's GPS determines wether playback should be started or stopped right now.
 
-All this gives rise to the following software components:
+All these features are realized by SmartMediaCenter, which includes the following software components:
 
 ## Software components
 
@@ -46,5 +46,9 @@ The player component of SmartMediaCenter. Accessed through RMI by the SMC Servic
 The service component of SmartMediaCenter, providing a GWT-RPC-based access service for mobile web clients to the SMC through Servlets on a Tomcat webserver serving compiled JavaScript web pages as a GUI. The component is meant to be hosted on a permanently accessible host with very low energy consumption, like as Raspberry Pi. Besides providing the mentioned service to a mobile web-client, this component controls the current playback configuration and the state of media playback on the SMC Player component host via RMI. For this purpose, it also wakes up or sets asleep the SMC Player host, as required.
 
 ## Developer hints
-* Everything completely Maven-ized, even the installation. No need to set up as an OS service.
-* Fully preconfigured Tomcat, including user access control and certificate. Just run the Maven-based setup.jar per component 
+
+SmartMediaCenter is really currently being devloped, still working on a first prototype to be uploaded in time!
+
+* Everything will be completely Maven-ized for development (dependencies, plugins).
+* Installation/setup on the target host will be made as simple as possible by using a JAR-based Maven-call even for that. So package will ship with Maven included.
+* Fully preconfigured Tomcat, including user access control and certificate. Just run the Maven-based setup.jar per component. Also, no OS service (for Tomcat) installed by the setup. Can be done manually, if desired. But just running the main launch JAR will suffice.
