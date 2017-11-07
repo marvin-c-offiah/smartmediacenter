@@ -1,4 +1,4 @@
-# SmartMediaCenter
+# SmartMediaCenter - ***PROJECT IDEA UNDER DEVELOPMENT***
 
 A mobile client-server architecture for controlling your home cinema
 
@@ -47,7 +47,7 @@ The service component of SmartMediaCenter, providing a GWT-RPC-based access serv
 
 ## Developer hints
 
-SmartMediaCenter is really currently being devloped, still working on a first prototype to be uploaded in due time!
+SmartMediaCenter is ***really currently being developed***, still working on a first prototype to be uploaded in due time!
 
 * Everything will be completely Maven-ized for development (dependencies, plugins).
 * Everything will be as cross-platform as possible by using Java wherever possible.
