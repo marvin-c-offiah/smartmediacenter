@@ -10,7 +10,7 @@ But once you enter your home later that day, you'll already be hearing some musi
 
 And all this has been going on since only a few minutes before you arrived home. Before that, your PC and your projector have been both still on standby, playing no music, no video, nothing, just silence. This sudden video show probably woke up your dog, completely confused why all this is happening without anybody home. You're probably surprised by all this yourself, since you've completely forgotten that this is going to happen. Because, it's not like you had to hit some other button entering home, saying "start playing now" or something. 
 
-And the funny thing is: Should your friend ask you to come due to some sudden emergency right now, you can just leave. No need to switch off anything. Because while you're waiting on the next traffic light on the way to your friend, everything at home has already been shut down by itself, so your dog can continue to sleep.
+And the funny thing is: Should your friend ask you to come over due to some sudden emergency right now, you can just leave. No need to switch off anything. Because while you're waiting on the next traffic light on the way to your friend, everything at home has already been shut down by itself, so your dog can continue to sleep.
 
 So surprise, surprise? Well, not really. Because what makes this all possible is your entire system called **SmartMediaCenter** with all its hardware and software components. But let's tell the story right from start...
 
