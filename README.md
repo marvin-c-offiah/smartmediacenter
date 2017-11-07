@@ -51,4 +51,5 @@ SmartMediaCenter is really currently being devloped, still working on a first pr
 
 * Everything will be completely Maven-ized for development (dependencies, plugins).
 * Installation/setup on the target host will be made as simple as possible by using a JAR-based Maven-call even for that. So package will ship with Maven included. Will try to get all separate components on Maven Central, in order to realize an online-installation package.
-* Fully preconfigured Tomcat, including user access control and certificate. Just run the Maven-based setup.jar per component. Also, no OS service (for Tomcat) installed by the setup. Can be done manually, if desired. But just running the main launch JAR will suffice.
+* Fully preconfigured Tomcat, including user access control and certificate for the SMC Service. Certificate to be generated during setup on target host. Just run the Maven-based setup.jar.
+* No OS service (for Tomcat or SMC Player) installed by the setup.jar. Can be done manually, if desired. But just running the main launch JAR after installation will suffice.
